@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #333;
+}
+
+h1 { color: #00adb5; }
+
+section { margin: 30px 0; }
+
+.project-card {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #00adb5;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00adb5;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for mobile */
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background: #00adb5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100%; /* Easy to tap with thumb */
+    cursor: pointer;
+}
+
+button:active {
+    background: #007d82;
+}
+
+.project-img {
+    width: 100%; /* Makes image span the card width */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    transition: transform 0.2s; /* Subtle effect when tapped */
+}
+
+.project-card:active {
+    transform: scale(0.98);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on phone */
+    gap: 15px;
+}
+
+.skill-item {
+    background: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.skill-item .icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    margin: 0;
+    font-weight: bold;
+    color: #00adb5;
+}
+
+
+
